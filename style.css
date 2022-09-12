@@ -120,7 +120,7 @@ a {
   transition: 0.5s;
 }
 .hero-info {
-  background: url('./Images/logo2clear.webp') no-repeat;
+  background: url('./Images/logo2.webp') no-repeat;
   padding-top: 112px;
   padding-bottom: 112px;
   background-position-x:400px;
