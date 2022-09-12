@@ -38,6 +38,7 @@
   }
   .center{
     text-align: center;
+    margin:auto;
   }
   .description {
     margin-left: 9px;
