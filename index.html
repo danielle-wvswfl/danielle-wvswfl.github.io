@@ -74,6 +74,17 @@
     #grid2 a {
     color: #dc32aa;
     }
+        /* (A) ON BIG SCREEN */
+        .thegrid {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          grid-gap: 5px;
+        }
+         
+        /* (B) ON SMOL SCREEN */
+        @media screen and (max-width:768px) {
+          .thegrid { grid-template-columns: auto auto; }
+        }
 </style>
 
 <body>
