@@ -1,16 +1,11 @@
-* {
-    margin: 0
-}
 
 body {
     background-color: #000;
     color: #fff
 }
-
 b {
     background-color: none
 }
-
 a {
     color: #55319d;
     text-decoration: none
@@ -23,38 +18,13 @@ a {
     border-radius: 2px
 }
 
-.container {
-    width: 95%;
-    margin: 0 auto;
-    padding: 2em
-}
 
-.menu {
-    margin-top: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
 
-.menu-logo {
-    display: flex;
-    align-items: center
-}
 
-.center {
-    text-align: center;
-    margin: auto
-}
 
-.description {
-    margin-left: 9px
-}
 
-.name {
-    display: block;
-    font-size: 16px;
-    font-weight: 800
-}
+
+
 
 .avatar {
     width: 65px;
@@ -162,12 +132,7 @@ a {
     border-radius: 2px
 }
 
-.hero-title {
-    font-size: 45px;
-    font-weight: 800;
-    margin-top: 5px;
-    margin-bottom: 5px
-}
+
 
 .hero-description {
     font-size: 18px;
@@ -177,9 +142,7 @@ a {
     border-radius: 2px
 }
 
-.hero-social {
-    margin-top: 30px
-}
+
 
 .social {
     display: inline-block;
@@ -285,15 +248,7 @@ a {
     margin-bottom: 10px
 }
 
-.projects {
-    padding: 97px 0
-}
 
-.project-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
 
 .project-card {
     min-height: 370px;
@@ -307,15 +262,6 @@ a {
     background-color: #2b2a2c
 }
 
-.project-card__image {
-    height: 300px;
-    background-repeat: no-repeat;
-    background-color: none
-}
-
-.project-card__info {
-    padding: 19px 13px
-}
 
 .project-category {
     display: block;
@@ -323,20 +269,7 @@ a {
     color: #fff
 }
 
-.project-title {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px
-}
 
-.about {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 105px
-}
 
 .about_title {
     font-size: 45px;
@@ -352,10 +285,7 @@ a {
     margin-bottom: 53px
 }
 
-.about_left {
-    position: relative;
-    top: 22px
-}
+
 
 .footer {
     background: linear-gradient(to bottom right, #faac35, #dc32aa, #55319d);

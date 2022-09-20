@@ -8,16 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women's Voices SWFL</title>
-    <link rel="preload" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic">
     <link rel="prefetch" href="./Images/logo.webp">
     <link rel="prefetch" href="./Images/logo2.webp">
+    <link rel="preconnect" href="https://kit.fontawesome.com/a96ef98744.js">
     <link rel="shortcut icon" href="./Images/logo2clearSmall.webp">
     <link rel="canonical" href="https://wvswfl.com">
     <link id="style1" rel="stylesheet" type="text/css" href="style.css" />
     <link id="style2" rel="stylesheet" type="text/css" href="dark.css" disabled="disabled" />
-    <script src="https://kit.fontawesome.com/a96ef98744.js" crossorigin="anonymous" defer></script>
+    <script src="https://kit.fontawesome.com/a96ef98744.js" crossorigin="anonymous"></script>
      <!-- For Google -->
     <meta name="keywords"
         content="women rights, women rights movement, best place to donate money, charitable organizations, top charitable organizations, nonprofit charitable organizations, charitable organizations near me, southwest florida, equal rights, equal rights act, volunteer work near me, volunteer near me, volunteer, volunteer opportunities, local organizations to volunteer, local organizations near me, civil liberties, florida women care, women's reproductive rights, reproductive rights, donate money charity, donate money for charity, donate money, local organizations to donate to, protest near me" />
@@ -41,10 +41,89 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <style>
-    body {
-    font-family: 'Open Sans', sans-serif;
+
+    * {
     margin: 0
 }
+    body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+   
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 2em
+}
+.menu {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.menu-logo {
+    display: flex;
+    align-items: center
+}
+
+.center {
+    text-align: center;
+    margin: auto
+}
+
+.description {
+    margin-left: 9px
+}
+.name {
+    display: block;
+    font-size: 16px;
+    font-weight: 800
+}
+.hero-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.hero-social {
+    margin-top: 30px
+}
+.projects {
+    padding: 97px 0
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-card__image {
+    height: 300px;
+    background-repeat: no-repeat
+}
+
+.project-card__info {
+    padding: 19px 13px
+}
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 105px
+}
+.about_left {
+    position: relative;
+    top: 22px
+}
+
     #grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -550,7 +629,7 @@
                     of your generosity and dedication. </p><br><b style="font-family: 'Brush Script MT', cursive;">WVSWFL</b> <!-- <b> Special Acknowledgements: </b> <br>-->
                 <!-- <table> <tr> <th><img src="./Images/ruths-list.png" alt="ruths list" width="80px"><br><a target="_blank" href="https://ruthslistfl.org/">Ruths List</a></th> <th><img src="./Images/the-mable.jpg" alt="The Mable bar and grill" width="75"><br><a target="_blank" href="https://www.themablebar.com/">The Mable Bar & Grill</a></th> <th><img src="./Images/lwv.png" alt="League of women voters" width="75px"><br><a target="_blank" href="https://lwvfl.org/">League Of Women Voters</a></th> </tr> <tr> <th>Jane Doe</th> <th>John Doe</th> <th>Jane Doe</th> </tr> </table>-->
         </div>
-        <br><br>
+        <br>
     </section>
     <!--Footer-->
     <footer class="footer" id="footer">
@@ -574,9 +653,9 @@
             </div>
         </div>
     </footer>
-    <script> document.addEventListener("DOMContentLoaded", () => { window.setTimeout(function () { document.body.className = ''; }, 230); }); </script>
+    <script> document.addEventListener("DOMContentLoaded", () => { window.setTimeout(function () { document.body.className = ''; }, 230); });</script>
     <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
     <script src="./script.js" defer></script>
 </body>
 
