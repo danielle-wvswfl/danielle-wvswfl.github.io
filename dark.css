@@ -3,8 +3,6 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
     background-color: #000;
     color: #fff
 }
@@ -356,7 +354,7 @@ a {
 
 .about_left {
     position: relative;
-    top: 200px
+    top: 22px
 }
 
 .footer {
